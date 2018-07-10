@@ -29,7 +29,7 @@ window.onload = function (e) {
 
     // メッセージの送信
     document.getElementById('sendmessagebutton').addEventListener('click', function () {
-        https://developers.line.me/ja/reference/liff/#liffsendmessages()
+        // https://developers.line.me/ja/reference/liff/#liffsendmessages()
         liff.sendMessages([{
             type: 'text',
             text: "テキストメッセージの送信"
